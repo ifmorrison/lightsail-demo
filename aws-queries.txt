@@ -1,0 +1,7 @@
+To see the list of available OS blueprints run:
+
+get-blueprints --query 'blueprints[*].[blueprintId, name]' --output text
+
+To see the list of available bundles run:
+
+aws lightsail get-bundles --output text
